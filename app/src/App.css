@@ -1,0 +1,11 @@
+h1{
+  text-align: center;
+  justify-self: center;
+}
+
+div{
+  border-radius: 3px;
+  border-color: black;
+  text-align: center;
+  border-style: solid;
+}
