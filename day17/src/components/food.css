@@ -1,0 +1,23 @@
+img{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.foodClass{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(155, 184, 184);
+    border-radius: 10px;
+}
+
+.priceClass{
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    padding: 10px;
+    background-color:rgb(5, 5, 5);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
