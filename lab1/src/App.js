@@ -7,6 +7,7 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>Task1</h1>
      <button onClick={open1}>
    Open hyperiondev site
      </button>

@@ -21,6 +21,7 @@ let user={
 const element=(
   
   <div className='userInfo'>
+    <h1>Task2</h1>
      <div className='img1'>{user.profile_picture}</div> 
     <h4>Name: {user.name}</h4>
     <h4>surname: {user.surname}</h4>
@@ -37,6 +38,7 @@ const element=(
    
   </div>
 )
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -44,8 +46,9 @@ ReactDOM.render(
   
   document.getElementById('root')
 );
+ReactDOM.render(element, document.getElementById('root2'));
 
-ReactDOM.render(element, document.getElementById('root'));
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
