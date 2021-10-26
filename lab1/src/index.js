@@ -15,8 +15,8 @@ let user={
   email:"sarah@gmail.com",
   telephone:"0550000000",
   company:'Tuwaiq Academy',
-  profile_picture:<img src={sarahPic} />,
-  interests:['Reading','cooking']
+  profile_picture:<img src={sarahPic} className='sarahPic'/>,
+  interests:['Reading','cooking','Watching Movies']
 }
 const element=(
   
@@ -29,16 +29,11 @@ const element=(
     <h4>email: {user.email}</h4>
     <h4>telephone: {user.telephone}</h4>
     <h4>company: {user.company}</h4>
-  <h4>
-    {user.interests.forEach(element=>{
-     console.log(element);
-     return  element
-    })}</h4>
-    {/* <h4>
-{user.interests.map((element,index)=>{
-  return <"filename"+ interest=(element) key=(index)/>
-})}
-</h4> */}
+    <h4> interests:</h4>
+  <ul>
+    {user.interests.map(element=>{
+     return <li className="interestArray">{element}</li> 
+    })}</ul>
    
   </div>
 )
