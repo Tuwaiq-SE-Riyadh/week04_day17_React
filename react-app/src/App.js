@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { render } from '@testing-library/react';
 
-function App() {
+ function App() {
   var today = new Date()
    let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
     let time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
